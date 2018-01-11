@@ -30,10 +30,10 @@
   font-weight: 400;
 }
 
-.Montserrat-Regular-15 {
+.Montserrat-Medium-15 {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .OpenSans-Light-50 {
@@ -48,7 +48,13 @@
   font-weight: 300;
 }
 
-.OpenSans-Regular-13 {
+.OpenSans-Light-14 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.OpenSans-Regular-16 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
