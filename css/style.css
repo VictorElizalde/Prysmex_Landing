@@ -6,6 +6,36 @@
  * Made By MaterializeCSS.com
  */
 
+.Roboto-Light-18 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Roboto-Light-24 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.Roboto-Regular-18 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Montserrat-Regular-15 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.OpenSans-Light-50 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
 .btn {
   background-color: #0D567f;
 }
