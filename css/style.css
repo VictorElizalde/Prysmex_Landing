@@ -6,10 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+h1, h2, h3, h4, h5, h6{
+  line-height: 23px;
+}
+
+p.standard {
+  line-height: 25px;
+}
+
 .Roboto-Light-14 {
- font-family: 'Roboto', sans-serif;
- font-size: 14px;
- font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .Roboto-Light-16 {
