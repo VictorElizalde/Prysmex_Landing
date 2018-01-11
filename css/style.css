@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+.Roboto-Light-14 {
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
+ font-weight: 300;
+}
+
 .Roboto-Light-18 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -34,6 +40,18 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 300;
+}
+
+.OpenSans-Light-33 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.OpenSans-Regular-13 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn {
