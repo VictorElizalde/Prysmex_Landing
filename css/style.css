@@ -62,10 +62,22 @@ p.standard {
   font-weight: 300;
 }
 
+.OpenSans-Light-24 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
 .OpenSans-Regular-16 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+.OpenSans-Bold-20 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .btn {
@@ -81,12 +93,16 @@ p.standard {
 }
 
 .mycontainer {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .icon-header {
   font-size: 15px;
+}
+
+.app-header {
+  font-size: 20px;
 }
 
 nav ul a,
