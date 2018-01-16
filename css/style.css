@@ -6,6 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+.carousel .indicators .indicator-item.active {
+   background-color: #0D567f;
+}
+
+.page-footer {
+  background-color: #0D567f;
+}
+
+.carousel .indicators .indicator-item {
+   background-color: #afafaf;
+}
+
 h1, h2, h3, h4, h5, h6{
   line-height: 23px;
 }
@@ -77,6 +89,12 @@ p.standard {
 .OpenSans-Bold-20 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.OpenSans-Bold-14 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   font-weight: 600;
 }
 
