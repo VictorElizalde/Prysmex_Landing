@@ -106,6 +106,14 @@ p.standard {
   background-color: #11a04e;
 }
 
+.btn-large:hover {
+  background-color: #0a7034;
+}
+
+.btn:hover {
+  background-color: #0c4666;
+}
+
 .slogan {
   font-size: 50px;
 }
