@@ -209,6 +209,8 @@ p {
 
 .bgimg {
   background-image: url('../background4.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 @media only screen and (max-width : 600px) {
