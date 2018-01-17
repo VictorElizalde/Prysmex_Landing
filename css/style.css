@@ -123,6 +123,18 @@ p.standard {
   font-weight: 300;
 }
 
+.OpenSans-Light-22 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.OpenSans-Light-20 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .OpenSans-Light-16 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
