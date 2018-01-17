@@ -39,6 +39,12 @@ p.standard {
   line-height: 25px;
 }
 
+.Roboto-Light-12 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
 .Roboto-Light-14 {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -67,6 +73,12 @@ p.standard {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: 500;
+}
+
+.Montserrat-Light-15 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .OpenSans-Regular-14 {
