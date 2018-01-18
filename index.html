@@ -26,43 +26,65 @@
 
 <body>
 
-  <div style="background-color:#f7f7f7" >
-    <div class="row section no-pad-bot bgimg" id="index-banner">
-
-      <div class="navbar">
-        <nav class="transparent z-depth-0">
-          <div class="nav-wrapper" style="margin-left:26px; margin-right:38px;">
-            <a href="#!" class="brand-logo" style="margin-top: 10px;"><img src="ASSETS/Logo@2x.png" style="height:40px; width:164px;"></img></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a class="Roboto-Light-16" href="#">HOME</a></li>
-              <li><a class="Roboto-Light-16" href="#who">SOLUTIONS</a></li>
-              <li><a class="Roboto-Light-16" href="#what">PRODUCTS</a></li>
-              <li><a class="Roboto-Light-16" href="#how">INDUSTRIES</a></li>
-              <li><a class="Roboto-Light-16" href="#contact">CONTACT US</a></li>
-              <li><a href="#" class="btn">TRIAL</a></li>
-            </ul>
-          </div>
-        </nav>
-
-        <br>
-        <br>
-
-        <div class="row" style="margin:52px;">
-          <div class="col s12">
-            <h3 class="left slogan OpenSans-Light-50">Redefining Industrial Safety</h3>
-          </div>
-          <div class="col s12" style="margin-left:3px;">
-            <h6 class="OpenSans-Light-24">At PRYSMEX we have developed solutions that allow optimizing</h6>
-             <h6 class="OpenSans-Light-24">the use of resources through state-of-the-art technology.</h6>
-          </div>
-          <div class="s12">
-            <a style="margin: 15px 0px 180px 12px;" class="btn-large left OpenSans-Light-20">REQUEST A TRIAL</a>
-          </div>
-        </div>
-
+  <div class="navbar-fixed hide-on-med-and-down" style="position:absolute; top:0px;">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper" style="margin-left:26px; margin-right:38px;">
+        <a href="#!" class="brand-logo" style="margin-top: 10px;"><img src="ASSETS/Logo@2x.png" style="height:40px; width:164px;"></img></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="Roboto-Light-16" href="#">HOME</a></li>
+          <li><a class="Roboto-Light-16" href="#who">SOLUTIONS</a></li>
+          <li><a class="Roboto-Light-16" href="#what">PRODUCTS</a></li>
+          <li><a class="Roboto-Light-16" href="#works">HOW IT WORKS</a></li>
+          <li><a class="Roboto-Light-16" href="#how">INDUSTRIES</a></li>
+          <li><a class="Roboto-Light-16" href="#contact">CONTACT US</a></li>
+          <li><a href="#" class="btn">TRIAL</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
 
+  </div>
+
+  <nav class="white hide-on-large-only" role="navigation">
+      <div class="nav-wrapper container">
+          <a id="logo-container" href="#home" class="brand-logo topLink">PRYSMEX</a>
+          <ul id="nav-mobile" class="side-nav">
+            <li><a class="Roboto-Light-16" href="#">HOME</a></li>
+            <li><a class="Roboto-Light-16" href="#who">SOLUTIONS</a></li>
+            <li><a class="Roboto-Light-16" href="#what">PRODUCTS</a></li>
+            <li><a class="Roboto-Light-16" href="#works">HOW IT WORKS</a></li>
+            <li><a class="Roboto-Light-16" href="#how">INDUSTRIES</a></li>
+            <li><a class="Roboto-Light-16" href="#contact">CONTACT US</a></li>
+            <li><a href="#" class="btn">TRIAL</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container grey-text text-darken-3"> <!-- anchor -->
+      <div class="section no-pad-bot scrollspy" id="home">
+            <div class="row" style="margin: 0px 52px; top: 150px; position: relative;">
+              <div class="col s12">
+                <h3 class="left slogan OpenSans-Light-50" style="margin-top: 0px;">Redefining Industrial Safety</h3>
+              </div>
+              <div class="col s12 m7" style="margin-left:3px;">
+                <h6 class="OpenSans-Light-24">We develop solutions that optimize the use of resources through state-of-the-art technology.</h6>
+              </div>
+              <div class="col s12">
+                <a style="margin: 15px 0px 0px 12px;" class="btn-large left OpenSans-Light-20">REQUEST A TRIAL</a>
+              </div>
+            </div>
+      </div>
+
+      <!-- Show video on medium and small devices -->
+      <div class="parallax">
+          <img src="cover2.jpg" alt="worker image">
+          <div class="parallax-overlay"></div>
+      </div>
+
+  </div>
+
+
+  <div style="background-color:#f7f7f7">
     <div class="mycontainer" id="who">
       <div class="section">
         <div class="row">
@@ -198,28 +220,23 @@
   <div style="background-color:#0D567f;">
     <div class="row">
       <div class="col s12 m6" style="padding: 0px 0px 0px 0px;">
-        <div style="margin-top: 40px; margin-bottom: 50px; margin-left: 20px;">
-          <img style="height: 500px;" src="ASSETS/render_cool.png" />
+        <div style="margin-top: 40px; margin-bottom: 50px; margin-left: 50px;">
+          <img class="responsive-img" style="max-height: 600px;" src="ASSETS/render_cool.png" />
         </div>
       </div>
 
-      <div class="col s12 m6">
+      <div class="col m12 l6">
         <div class="mycontainer">
 
           <div class="row">
-          </div>
-
-          <div class="row">
             <h6 class= "Montserrat-Medium-15" style="color:#FFFFFF; margin-top:50px;">WEARABLE</h6>
-            <h5 class="OpenSans-Light-24" style="color:#FFFFFF;">Constantly monitors and alerts the exposure of</h5>
-            <h5 class="OpenSans-Light-24" style="color:#FFFFFF;">the environment and physical conditions of the</h5>
-            <h5 class="OpenSans-Light-24" style="color:#FFFFFF;">worker.</h5>
+            <h5 class="OpenSans-Light-24" style="color:#FFFFFF;">Constantly monitors and alerts the exposure of the environment and physical conditions of the worker.</h5>
           </div>
 
           <br>
           <br>
 
-          <div class="row">
+          <div class="row" style="margin-top: 70px;">
 
             <div class="col s4">
               <div class="right">
@@ -315,84 +332,73 @@
     </div>
   </div>
 
-  <div class="mycontainer" id="">
-    <div class="section">
-
-      <div class="row">
-        <div class="center" >
-          <video class="responsive-video" style="width:100%;" controls>
-            <source src="ASSETS/Prysmex Final.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-
-      <!-- <div class="row">
-        <div style="width:761px; height:auto;">
-          <div class="video-container">
-            <iframe src="http://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div> -->
-
-    </div>
-  </div>
-
-  <div class="mycontainer" id="how">
+  <div class="mycontainer" id="works">
     <div class="section">
       <div class="row">
-        <div class="center" style="margin-top:44px; margin-bottom:30px">
-          <h6 class= "Montserrat-Medium-15" style="color:#0D567f;">INDUSTRIES</h6>
-        </div>
-        <div class="center" style="margin-top:40px; margin-bottom:42px;">
-          <h5 class="OpenSans-Light-33" style="color:#020202;"> We work with any type of industry </h5>
+        <div class="video-container center">
+          <iframe style="width: 100%; height: 96%;" src="https://www.youtube.com/embed/mt9aa6WG1W0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="center">
-    <img src="ASSETS/gallery_1.png" alt="">
-    <img src="ASSETS/gallery_2.png" alt="">
-    <img src="ASSETS/gallery_3.png" alt="">
-    <img src="ASSETS/gallery_4.png" alt="">
-    <img src="ASSETS/gallery_5.png" alt="">
-  </div>
-
-  <div class="mycontainer">
-    <div class="section">
-      <div class="row" style="margin-top:40px;">
-
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center" >
-              <img src="ASSETS/Grupo Modelo.png" />
-            </div>
+  <div style="background-color:#f7f7f7">
+    <div class="mycontainer" id="how">
+      <div class="section">
+        <div class="row">
+          <div class="center" style="margin-top:44px; margin-bottom:30px">
+            <h6 class= "Montserrat-Medium-15" style="color:#0D567f;">INDUSTRIES</h6>
+          </div>
+          <div class="center" style="margin-top:40px; margin-bottom:42px;">
+            <h5 class="OpenSans-Light-33" style="color:#020202;"> We work with any type of industry </h5>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center" style="padding-top:15px;">
-              <img src="ASSETS/Cemex.png" />
+    <div class="center">
+      <img src="ASSETS/gallery_1.png" alt="">
+      <img src="ASSETS/gallery_2.png" alt="">
+      <img src="ASSETS/gallery_3.png" alt="">
+      <img src="ASSETS/gallery_4.png" alt="">
+      <img src="ASSETS/gallery_5.png" alt="">
+    </div>
+
+    <div class="mycontainer">
+      <div class="section">
+        <div class="row" style="margin-top:40px;">
+
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center" >
+                <img src="ASSETS/Grupo Modelo.png" />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center" style="">
-              <img src="ASSETS/Arca_continental_logo.png" />
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center" style="padding-top:15px;">
+                <img src="ASSETS/Cemex.png" />
+              </div>
             </div>
           </div>
-        </div>
 
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center" style="">
+                <img src="ASSETS/Arca_continental_logo.png" />
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="carousel carousel-slider center" data-indicators="true">
+  <!-- <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-item" style="background-color:#f7f7f7;" href="#one!">
       <h5 class="OpenSans-Light-33" style="color:#020202; margin-top:100px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</h5>
       <h5 class="OpenSans-Light-33" style="color:#020202;">consectetur, adipisci velit..."</h5>
@@ -414,7 +420,7 @@
       <h6 class="OpenSans-Light-16" style="color:#2c2c2c">- John Smith</h6>
       <h6 class= "OpenSans-Bold-14" style="color:#2c2c2c; ">CEO AT MEXICAN VENTURES</h6>
     </div>
-  </div>
+  </div> -->
 
   <div class="mycontainer" id="contact">
     <div class="section">
@@ -427,13 +433,46 @@
 
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
-              <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
+              <form class="">
+                <div class="container">
+                  <div class="modal-content">
+                    <div class="">
+                      <div class="center">
+                          <h4 style="margin-top: 10px;"> Contact Info </h4>
+                          <div class="header-line prysmex-blue" ></div>
+                      </div>
+                      <div class="input-field">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="name" type="text" class="validate">
+                          <label for="name"> Name </label>
+                      </div>
+
+                      <div class="input-field">
+                          <i class="material-icons prefix">business</i>
+                          <input id="company" type="text" class="validate">
+                          <label for="company">Company</label>
+                      </div>
+
+                      <div class="input-field">
+                          <i class="material-icons prefix">mail</i>
+                          <input id="email" type="email" class="validate">
+                          <label for="email" data-error="wrong" data-success="right">Email</label>
+                      </div>
+
+                      <div class="input-field">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="message" type="text" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="modal-action modal-close waves-effect waves-green btn" type="submit" name="submit" id="submit"> SEND
+                      <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -467,6 +506,8 @@
               <li> | </li>
               <li><a class="OpenSans-Light-14" href="#what">Products</a></li>
               <li> | </li>
+              <li><a class="OpenSans-Light-14" href="#works">How it works</a></li>
+              <li> | </li>
               <li><a class="OpenSans-Light-14" href="#how">Industries</a></li>
               <li> | </li>
               <li><a class="OpenSans-Light-14" href="#contact">Contact Us</a></li>
@@ -493,7 +534,50 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
+
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+
+    var myEfficientFn = debounce(function() {
+      console.log("asdf");
+      if ($(window).scrollTop() > 500){
+          $('nav').addClass( "white");
+          $('nav').removeClass( "transparent");
+      }
+      else {
+        $('nav').addClass( "transparent");
+        $('.navbar-fixed').removeClass("white");
+      }
+    }, 100);
+
+    $(document).on("scroll", myEfficientFn)
+
+
+
+    $(".button-collapse").sideNav();
+    $("#index-banner").css("min-height", window.innerHeight * 0.7);
     $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.modal').modal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        opacity: .5, // Opacity of modal background
+        inDuration: 300, // Transition in duration
+        outDuration: 200, // Transition out duration
+        startingTop: '4%', // Starting top style attribute
+        endingTop: '10%', // Ending top style attribute
+      }
+    );
   </script>
 
   </body>

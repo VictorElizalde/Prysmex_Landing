@@ -231,7 +231,6 @@ p {
 }
 
 .bgimg {
-  background-image: url('../cover2.jpg');
   background-repeat:no-repeat;
   background-size:cover;
 }
