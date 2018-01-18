@@ -6,6 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+ hr{
+   border: 1px solid #eeeeee;
+ }
+
+ .material-icons, .prysmex-icons {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     vertical-align: middle;
+ }
+
 #footer ul {
   list-style: none;
 }
@@ -32,7 +43,7 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-  line-height: 23px;
+  line-height: 35px;
 }
 
 p.standard {
@@ -220,7 +231,7 @@ p {
 }
 
 .bgimg {
-  background-image: url('../background4.jpg');
+  background-image: url('../cover2.jpg');
   background-repeat:no-repeat;
   background-size:cover;
 }
