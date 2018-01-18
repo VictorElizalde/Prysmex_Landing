@@ -37,7 +37,7 @@
           <li><a class="Roboto-Light-16" href="#works">HOW IT WORKS</a></li>
           <li><a class="Roboto-Light-16" href="#how">INDUSTRIES</a></li>
           <li><a class="Roboto-Light-16" href="#contact">CONTACT US</a></li>
-          <li><a href="#" class="btn">TRIAL</a></li>
+          <li><a class="btn modal-trigger" href="#modal1">TRIAL</a></li>
         </ul>
       </div>
     </nav>
@@ -46,7 +46,7 @@
 
   <nav class="white hide-on-large-only" role="navigation">
       <div class="nav-wrapper container">
-          <a id="logo-container" href="#home" class="brand-logo topLink">PRYSMEX</a>
+          <a id="logo-container" href="#home" class="brand-logo topLink"><img src="ASSETS/Logo@2x.png" style="height:40px; width:164px; margin-top: 7px;"></a>
           <ul id="nav-mobile" class="side-nav">
             <li><a class="Roboto-Light-16" href="#">HOME</a></li>
             <li><a class="Roboto-Light-16" href="#who">SOLUTIONS</a></li>
@@ -54,7 +54,7 @@
             <li><a class="Roboto-Light-16" href="#works">HOW IT WORKS</a></li>
             <li><a class="Roboto-Light-16" href="#how">INDUSTRIES</a></li>
             <li><a class="Roboto-Light-16" href="#contact">CONTACT US</a></li>
-            <li><a href="#" class="btn">TRIAL</a></li>
+            <li><a class="btn modal-trigger" href="#modal1">TRIAL</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
@@ -70,7 +70,7 @@
                 <h6 class="OpenSans-Light-24">We develop solutions that optimize the use of resources through state-of-the-art technology.</h6>
               </div>
               <div class="col s12">
-                <a style="margin: 15px 0px 0px 12px;" class="btn-large left OpenSans-Light-20">REQUEST A TRIAL</a>
+                <a style="margin: 15px 0px 0px 12px;" class="btn-large left OpenSans-Light-20 modal-trigger" href="#modal1" >REQUEST A TRIAL</a>
               </div>
             </div>
       </div>
@@ -83,9 +83,8 @@
 
   </div>
 
-
-  <div style="background-color:#f7f7f7">
-    <div class="mycontainer" id="who">
+  <div style="background-color:#f7f7f7" id="who">
+    <div class="mycontainer">
       <div class="section">
         <div class="row">
 
@@ -103,46 +102,58 @@
     </div>
   </div>
 
-  <div class="mycontainer">
-    <div class="section" style="margin-top:30px; margin-bottom:50px;">
+  <div class="mycontainer" id="works">
+    <div class="section">
       <div class="row">
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center">
-              <img src="ASSETS/Software Icon.png" style="height: 60px;"/>
-            </div>
-          </div>
-          <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">SOFTWARE / APP</h5>
-          <p style="color:#626262; text-align: center; padding: 0px 30px;" class="OpenSans-Light-14"> Alerts in real time, interactive map with tasks and workers in their exact location. Intergral solution for different mobile devices and operating systems.</span></p>
-          <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center">
-              <img src="ASSETS/Hardware Icon.png" style="height: 60px;"/>
-            </div>
-          </div>
-          <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">HARDWARE</h5>
-          <p style="color:#626262; text-align: center; padding: 0px 30px;" class="OpenSans-Light-14">Lightweight device capable of monitoring environmental and safety conditions in any workplace.</p>
-          <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <div class="center">
-              <img src="ASSETS/Analisis icon.png" style="height: 60px;"/>
-            </div>
-          </div>
-          <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">ANALYTICS</h5>
-          <p style="color:#626262;  text-align: center; padding: 0px 30px;" class="OpenSans-Light-14"> Visualization of data, reports and personalized reports in real time.</p>
-          <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
+        <div class="video-container center">
+          <iframe style="width: 100%; height: 96%;" src="https://www.youtube.com/embed/mt9aa6WG1W0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
 
   <div style="background-color:#f7f7f7">
+    <div class="mycontainer">
+      <div class="section" style="margin-top:30px; margin-bottom:50px;">
+        <div class="row" style="margin-bottom: 0px;">
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center">
+                <img src="ASSETS/Software Icon.png" style="height: 60px;"/>
+              </div>
+            </div>
+            <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">SOFTWARE / APP</h5>
+            <p style="color:#626262; text-align: center; padding: 0px 30px;" class="OpenSans-Light-14"> Alerts in real time, interactive map with tasks and workers in their exact location. Intergral solution for different mobile devices and operating systems.</span></p>
+            <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center">
+                <img src="ASSETS/Hardware Icon.png" style="height: 60px;"/>
+              </div>
+            </div>
+            <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">HARDWARE</h5>
+            <p style="color:#626262; text-align: center; padding: 0px 30px;" class="OpenSans-Light-14">Lightweight device capable of monitoring environmental and safety conditions in any workplace.</p>
+            <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="center">
+                <img src="ASSETS/Analisis icon.png" style="height: 60px;"/>
+              </div>
+            </div>
+            <h5 style="color:#2C2C2C" class="center icon-header Montserrat-Medium-15">ANALYTICS</h5>
+            <p style="color:#626262;  text-align: center; padding: 0px 30px;" class="OpenSans-Light-14"> Visualization of data, reports and personalized reports in real time.</p>
+            <hr style="margin-bottom: 30px; width: 60%;" class="hide-on-med-and-up">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="">
     <div class="mycontainer" id="what">
       <div class="section">
         <div class="row">
@@ -218,7 +229,7 @@
   </div>
 
   <div style="background-color:#0D567f;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0px;">
       <div class="col s12 m6" style="padding: 0px 0px 0px 0px;">
         <div style="margin-top: 40px; margin-bottom: 50px; margin-left: 50px;">
           <img class="responsive-img" style="max-height: 600px;" src="ASSETS/render_cool.png" />
@@ -236,7 +247,7 @@
           <br>
           <br>
 
-          <div class="row" style="margin-top: 70px;">
+          <div class="row">
 
             <div class="col s4">
               <div class="right">
@@ -307,36 +318,6 @@
 
           </div>
 
-          <!-- <div class="row">
-            <h6 class="OpenSans-Bold-20" style="color:#FFFFFF">Características:</h6>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF">
-              Ligero <span style = "display: block;">
-              Fácil de colocar <span style = "display: block;">
-              Libre de distracciones <span style = "display: block;">
-              Batería duradera de 24 horas continuas y fácil recarga <span style = "display: block;">
-              A prueba de agua</p>
-          </div> -->
-
-          <!-- <div class="row">
-            <h6 class="OpenSans-Bold-20" style="color:#FFFFFF">Detección de:</h6>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Nivel de ruido: 60 dBA hasta 110 dBA </p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Impacto: Caídas desde 50 cm y golpes en el casco </p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Temperatura: Suficiente para prevenir golpes de calor en los trabajadores expuestos a temperaturas ambientales altas arriba de 40 grados centígrados; -40ºC hasta 125ºC </p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Luz: Nivel de luxes en el área de trabajo, desde 0 hasta 120,000 lux. </p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Botón de emergencia: El trabajador puede presionar para mandar una señal inmediata al servidor e indicar que se encuentra en un riesgo o propenso a un accidente </p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Localización: Rango de +-15 cm en el mapa</p>
-            <p class="OpenSans-Light-16" style="color:#FFFFFF"> Humedad: De 0 a 100% de humedad relativa</p>
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="mycontainer" id="works">
-    <div class="section">
-      <div class="row">
-        <div class="video-container center">
-          <iframe style="width: 100%; height: 96%;" src="https://www.youtube.com/embed/mt9aa6WG1W0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -357,7 +338,7 @@
     </div>
 
     <div class="center">
-      <img src="ASSETS/gallery_1.png" alt="">
+      <img src="ASSETS/amarillo.jpg" alt="">
       <img src="ASSETS/gallery_2.png" alt="">
       <img src="ASSETS/gallery_3.png" alt="">
       <img src="ASSETS/gallery_4.png" alt="">
@@ -372,7 +353,7 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <div class="center" >
-                <img src="ASSETS/Grupo Modelo.png" />
+                <img src="ASSETS/modelofondo.png" class="responsive-img" style="max-height: 120px;"/>
               </div>
             </div>
           </div>
@@ -432,38 +413,32 @@
             <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">CONTACT US</a>
 
             <!-- Modal Structure -->
-            <div id="modal1" class="modal">
-              <form class="">
-                <div class="container">
-                  <div class="modal-content">
-                    <div class="">
-                      <div class="center">
-                          <h4 style="margin-top: 10px;"> Contact Info </h4>
-                          <div class="header-line prysmex-blue" ></div>
-                      </div>
-                      <div class="input-field">
-                          <i class="material-icons prefix">account_circle</i>
-                          <input id="name" type="text" class="validate">
-                          <label for="name"> Name </label>
-                      </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+              <form>
+                <div class="modal-content">
+                  <div class="container">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="name" type="text" class="validate">
+                        <label for="name"> Name </label>
+                    </div>
 
-                      <div class="input-field">
-                          <i class="material-icons prefix">business</i>
-                          <input id="company" type="text" class="validate">
-                          <label for="company">Company</label>
-                      </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">business</i>
+                        <input id="company" type="text" class="validate">
+                        <label for="company">Company</label>
+                    </div>
 
-                      <div class="input-field">
-                          <i class="material-icons prefix">mail</i>
-                          <input id="email" type="email" class="validate">
-                          <label for="email" data-error="wrong" data-success="right">Email</label>
-                      </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">mail</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                    </div>
 
-                      <div class="input-field">
-                          <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="message" type="text" class="materialize-textarea"></textarea>
-                          <label for="message">Message</label>
-                      </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="message" type="text" class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
                     </div>
                   </div>
                 </div>
@@ -552,7 +527,7 @@
 
     var myEfficientFn = debounce(function() {
       console.log("asdf");
-      if ($(window).scrollTop() > 500){
+      if ($(window).scrollTop() > 400){
           $('nav').addClass( "white");
           $('nav').removeClass( "transparent");
       }
